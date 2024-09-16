@@ -1,0 +1,123 @@
+
+/* General Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('../image/namek-dragon-ball.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Header Styles */
+h1 {
+    font-size: 3em;
+    color: #f39c12;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 0 #e74c3c, 6px 6px 0 #d35400;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 2em;
+    color: #e74c3c;
+    text-shadow: 2px 2px 0 #f39c12;
+}
+
+/* Text Styles */
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    color: #ecf0f1;
+}
+
+/* Video Container */
+video {
+    border: 5px solid #f39c12;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+/* Button Styles */
+button {
+    background-color: #e74c3c;
+    color: #f5f5f5;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px #c0392b;
+    transition: all 0.2s ease;
+    margin: 20px 0;
+}
+
+button:hover {
+    background-color: #c0392b;
+    box-shadow: 0px 6px 0px #a93226;
+}
+
+button:active {
+    transform: translateY(4px);
+    box-shadow: 0px 2px 0px #a93226;
+}
+
+/* Gallery Container */
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery-container img {
+    border: 3px solid #f39c12;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Alt Text Styles */
+.alt-text {
+    background-color: #f39c12;
+    color: #1c1c1c;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.alt-text h3 {
+    margin-bottom: 10px;
+}
+
+.alt-text p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+    padding: 10px 0;
+    font-size: 0.8em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    border-top: 3px solid #f39c12;
+}

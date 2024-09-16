@@ -1,0 +1,239 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #0044cc;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para productos */
+#Productos {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.product:last-child {
+    border-bottom: none;
+}
+
+.image img {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.info {
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.info .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.image {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 10px;               
+    margin-bottom: 10px;     
+}
+
+
+.info .price {
+    font-size: 16px;
+    color: #008000;
+}
+
+.info select {
+    margin-top: 10px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #0044cc;
+    margin-right: 15px;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.subtotalbox {
+    text-align: right;
+}
+
+.subtotal {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Estilos para el resumen */
+#Resumen {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.summary-box p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.summary-box h3 {
+    margin: 20px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #002288;
+    transition: background-color 0.3s;
+}
+
+/* Sección 'Guardar para más tarde' */
+#Mas_tarde {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#Mas_tarde p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image img {
+        margin-bottom: 10px;
+    }
+
+    .info {
+        padding: 0;
+    }
+
+    .subtotalbox {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}

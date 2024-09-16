@@ -1,0 +1,7 @@
+html{
+    font-size: 65.8%; /* se ajusta a ese porcentaje del DISPOSITIVO*/
+}
+
+body{
+    font-size: 16px; /*Los 16px se aplican encima de lo de 65.8% */
+}
