@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
@@ -24,25 +24,37 @@
             <p>Inicio de Aplicaciones Web 2</p>
             <p class="tag">Web 2 con Node.js</p>
             <form id="f0" method="post" action="/guardar" class="tag">
-
+                <input type="text" name="busqueda" class="busqueda" placeholder="Escribe información">
+                <input type="submit" value="Buscar" id="btn-submit">
             </form>
 
             <img src="image/fes.jpg" />
             <img src="image/fes.jpg" />
-            <img id="img" src="image/fes.jpg" />
+            <img id="img" src="image/fes_2.jpg" />
 
         </div>
+        <div>
+            <div class="contenedor-cards">
+                <div id="card" class="card">
+                    <img id="img2" src="image/fes_2.jpg">
+                    <div id="info" class="info">
+                        <p id="clase" class="clase">Clase</p>
+                        <p class="nombre">Programación Web 2</p>
+                        <p class="creditos">Créditos 10</p>
+                    </div>
+                </div>
+            </div>
+
     </main>
-    <script src="dom_uno.js"></script>
     <footer id="footer" class="footer">
         <div class="contenedor">
             <h1>FES ARAGÒN</h1>
             <img id="img" src="image/fes_2.jpg" class="clase-uno" />
         </div>
     </footer>
-    <a href="#footer"" id="bottonfooter" class="btn-flotante">Desplegar</a>
+    <a href="#footer" id=" bottonfooter" class="btn-flotante">Desplegar</a>
 
-    
+    <script src="./dom_cinco.js"></script>
 
 
 </body>
